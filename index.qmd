@@ -124,7 +124,7 @@ emissions_long["emissions"] = pd.to_numeric(emissions_long["emissions"].str.repl
 
 
 # Query for years between 1990 and 2022 (that is 1990, 1991, ..., 2022)
-emissions_long_1990_2022 = emissions_long.query("year >= 1990 and year <= 2022") 
+emissions_long_1990_2022 = emissions_long.query("year >=1990 and year <=2022") 
 
 # Query for 5 countries (adjust these to any countries you like)
 countries_of_interest = ["India", "South Africa", "USA", "Saudi Arabia", "United Kingdom"]
