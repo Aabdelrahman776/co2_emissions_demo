@@ -1,0 +1,85 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"CO2 Emissions Report\"\n",
+        "author: \"Ahmed Abdelrahman\"\n",
+        "format: html\n",
+        "---\n",
+        "\n",
+        "\n",
+        "::: {.panel-tabset}\n",
+        "\n",
+        "## Table\n"
+      ],
+      "id": "bc4b154f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "show(table_df)"
+      ],
+      "id": "e7bf27cd",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Chart\n"
+      ],
+      "id": "b4fd1ddc"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "fig_chart.show()"
+      ],
+      "id": "cd096842",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Map\n"
+      ],
+      "id": "64320cf3"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "fig_map.show()"
+      ],
+      "id": "3fe5bb14",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        ":::"
+      ],
+      "id": "efd38bc1"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/ahmedabdelrahman776/Documents/GitHub/co2_emissions_demo/.venv/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
